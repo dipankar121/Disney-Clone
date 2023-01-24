@@ -101,6 +101,8 @@ const NavMenu = styled.div`
       min-width: 20px;
       width: 20px;
       z-index: auto;
+      margin-top: -3px;
+      margin-right: 2px;
     }
 
     span {
