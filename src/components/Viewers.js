@@ -11,7 +11,7 @@ const Viewers = () => {
           controls
           muted
           autoPlay={"autoplay"}
-          preLoad="auto"
+          preload="auto"
           loop
         >
           {" "}
@@ -24,7 +24,7 @@ const Viewers = () => {
           controls
           muted
           autoPlay={"autoplay"}
-          preLoad="auto"
+          preload="auto"
           loop
         >
           {" "}
@@ -37,7 +37,7 @@ const Viewers = () => {
           controls
           muted
           autoPlay={"autoplay"}
-          preLoad="auto"
+          preload="auto"
           loop
         >
           {" "}
@@ -50,7 +50,7 @@ const Viewers = () => {
           controls
           muted
           autoPlay={"autoplay"}
-          preLoad="auto"
+          preload="auto"
           loop
         >
           {" "}
@@ -63,7 +63,7 @@ const Viewers = () => {
           controls
           muted
           autoPlay={"autoplay"}
-          preLoad="auto"
+          preload="auto"
           loop
         >
           {" "}

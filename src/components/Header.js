@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { auth, provider } from "../firebase";
 import {
   selectUserName,
+  // eslint-disable-next-line
   selectUserEmail,
   selectUserPhoto,
   setUserLoginDetails,
@@ -22,10 +23,9 @@ const Header = () => {
       if (user) {
         setUser(user);
         navigate("/home");
-      } else {
-        navigate("/");
       }
     });
+    // eslint-disable-next-line
   }, [userName]);
 
   const handleAuth = () => {
@@ -207,9 +207,9 @@ const NavMenu = styled.div`
     }
   }
 
-  /* @media (max-width: 768px) {
+  @media (max-width: 768px) {
     display: none;
-  } */
+  }
 `;
 
 const Login = styled.nav`
